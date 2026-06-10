@@ -1,5 +1,5 @@
-import Work from "../components/Home.js";
+import Home from '../components/Home';
 
 export default function HeaderPage() {
-  return <Header />;
+  return <Home />;
 }
