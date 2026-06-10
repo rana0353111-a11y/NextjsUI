@@ -1,20 +1,20 @@
-"use client"; // Ensures this is a client-side component
- import Header from "./components/Home";
+"use client";
+import HomeSection from "./components/Home";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Services from "./components/Services";
 import Work from "./components/Work";
 import Contact from "./components/Contact";
-export default function Home() {
+
+export default function Page() {
   return (
     <>
       <Navbar />
-      <Header/>
-      <About/>
-      <Services/>
-      <Work/>
-      <Contact/>
-      
+      <HomeSection />
+      <About />
+      <Services />
+      <Work />
+      <Contact />
     </>
   );
 }
